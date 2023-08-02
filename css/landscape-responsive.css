@@ -1,0 +1,147 @@
+@media (orientation: landscape) and (max-height: 450px) {
+    html{
+        font-size: 62.5%;
+    }
+    .elements {
+        width: 100%;
+    }
+    header, main, footer {
+        height: auto;
+        padding-bottom: 2%;
+    }
+    header {
+        padding-bottom: 4%;
+    }
+    main .text {
+        padding-bottom: 30px;
+    }
+    header .logo {
+        top: 5%;
+        right: 5%;
+    }
+    header .logo img {
+        width: 20px;
+    }
+    main .name {
+        font-size: 3.7rem;
+    }
+    main .congrats {
+        padding-top: 4px;
+        padding-bottom: 30px;
+    }
+    .congrats p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 800px) and (max-height: 420px) {
+    html{
+        font-size: 68%;
+    }
+    .elements {
+        width: 100%;
+    }
+    header, main, footer {
+        height: auto;
+        padding-bottom: 2%;
+    }
+    header {
+        padding-bottom: 4%;
+    }
+    main .text {
+        padding-bottom: 30px;
+    }
+    header .logo {
+        top: -2.6%;
+        right: 8%;
+    }
+    header .logo img {
+        width: 20px;
+    }
+    main .name {
+        font-size: 3.7rem;
+    }
+    main .congrats {
+        padding-top: 4px;
+        padding-bottom: 30px;
+    }
+    .congrats p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 950px) and (min-height: 600px) {
+    .container {
+        background-size: contain;
+    }
+    html{
+        font-size: 68%;
+    }
+    .elements {
+        width: 100%;
+    }
+    header, main, footer {
+        height: auto;
+        padding-bottom: 2%;
+    }
+    header {
+        padding-bottom: 4%;
+    }
+    main .text {
+        padding-bottom: 30px;
+    }
+    header .logo {
+        top: -15%;
+        right: 6%;
+    }
+    header .logo img {
+        width: 25px;
+    }
+    main .name {
+        font-size: 3.7rem;
+    }
+    main .congrats {
+        padding-top: 4px;
+        padding-bottom: 30px;
+    }
+    .congrats p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1000px) and (min-height: 750px) {
+    html{
+        font-size: 108%;
+    }
+    .elements {
+        width: 100%;
+    }
+    header {
+        padding-bottom: 4%;
+    }
+    header .title h1 {
+        font-size: 3.8rem;
+    }
+    header .title h2 {
+        font-size: 1.8rem;
+    }
+    main .text {
+        padding-bottom: 30px;
+    }
+    header .logo img {
+        width: 40px;
+    }
+    main .text p {
+        font-size: 1.8rem;
+    }
+    main .name {
+        font-size: 4.8rem;
+    }
+    main .congrats {
+        padding-top: 4px;
+        padding-bottom: 30px;
+    }
+    header .logo {
+        right: 2%;
+    }
+}

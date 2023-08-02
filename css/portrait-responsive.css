@@ -1,0 +1,103 @@
+@media (orientation: portrait) {
+    html {
+        font-size: 50% !important;
+    }
+    .container {
+        background-size: contain;
+    }
+    .elements {
+        width: 100%;
+    }
+    header, main, footer {
+        height: auto;
+        padding-bottom: 2%;
+    }
+    header .logo {
+        top: 10%;
+        right: 5%;
+    }
+    header .logo img {
+        width: 20px;
+    }
+    main .text {
+        padding-bottom: 8px;
+    }
+    main .name {
+        font-size: 3.7rem;
+    }
+    main .congrats {
+        padding-top: 4px;
+    }
+    .congrats p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (orientation: portrait) and (min-height: 600px) {
+    html {
+        font-size: 70% !important;
+    }
+    header .logo img {
+        width: 25px;
+    }
+    header, main, footer {
+        padding-bottom: 4%;
+    }
+    header .logo {
+        top: 0%;
+    }
+    header .logo img {
+        width: 18px;
+    }
+    header .logo .text p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 500px) and (min-height: 600px) {
+    html {
+        font-size: 50% !important;
+    }
+    header, main, footer {
+        padding-bottom: 5%;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 400px) and (min-height: 600px) {
+    html {
+        font-size: 40% !important;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 400px) and (min-height: 600px) {
+    html {
+        font-size: 35% !important;
+    }
+}
+
+@media (orientation: portrait) and (max-height: 1180px) and (min-height: 700px) and (max-width: 820px) {
+    html {
+        font-size: 90%;
+    }
+    header .logo img {
+        width: 25px;
+    }
+    header .logo {
+        top: 12%;
+    }
+}
+
+@media (orientation: portrait) and (min-height: 600px) and (min-width: 700px) {
+    html {
+        font-size: 90% !important;
+    }
+    header .logo img {
+        width: 25px;
+    }
+    header .logo {
+        top: 0%;
+    }
+    header .logo .text p {
+        font-size: 0.8rem;
+    }
+}
