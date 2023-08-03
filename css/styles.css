@@ -24,6 +24,10 @@ html {
     justify-content: center;
 }
 
+.elements {
+    position: relative;
+}
+
 header {
     position: relative;
     width: 100%;
@@ -44,19 +48,29 @@ header .title h2 {
     font-family: 'Poppins', sans-serif;
 }
 
-header .logo {
+header .logo-photo {
     position: absolute;
-    right: 10%;
+    right: 5%;
     top: 20%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-header .logo .text {
+header .photo {
+    background-image: url('../images/Component\ 1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 160px;
+    height: 140px;
+}
+
+header .logo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-bottom: 2px;
 }
 
 header .logo .text p {
@@ -131,4 +145,16 @@ footer .sign .line {
 
 footer p {
     font-family: 'Poppins', sans-serif;
+}
+
+.qr-img {
+    width: 160px;
+    height: 160px;
+    background-image: url('../images/Component\ 2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    bottom: 4%;
+    left: 5%;
 }

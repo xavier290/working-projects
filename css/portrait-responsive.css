@@ -12,10 +12,6 @@
         height: auto;
         padding-bottom: 2%;
     }
-    header .logo {
-        top: 10%;
-        right: 5%;
-    }
     header .logo img {
         width: 20px;
     }
@@ -31,6 +27,10 @@
     .congrats p {
         font-size: 0.85rem;
     }
+    .qr-img, header .photo {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 @media (orientation: portrait) and (min-height: 600px) {
@@ -43,16 +43,25 @@
     header, main, footer {
         padding-bottom: 4%;
     }
-    header .logo {
-        top: 0%;
-    }
     header .logo img {
         width: 18px;
     }
     header .logo .text p {
         font-size: 0.8rem;
     }
+    .qr-img, header .photo {
+        width: 120px;
+        height: 120px;
+    }
 }
+
+@media (orientation: portrait) and (min-width: 500px) and (max-width: 600px) and (min-height: 600px) { 
+    .qr-img, header .photo {
+        width: 80px;
+        height: 80px;
+    }
+}
+
 
 @media (orientation: portrait) and (max-width: 500px) and (min-height: 600px) {
     html {
@@ -60,6 +69,10 @@
     }
     header, main, footer {
         padding-bottom: 5%;
+    }
+    .qr-img, header .photo {
+        width: 60px;
+        height: 60px;
     }
 }
 
@@ -82,9 +95,6 @@
     header .logo img {
         width: 25px;
     }
-    header .logo {
-        top: 12%;
-    }
 }
 
 @media (orientation: portrait) and (min-height: 600px) and (min-width: 700px) {
@@ -93,9 +103,6 @@
     }
     header .logo img {
         width: 25px;
-    }
-    header .logo {
-        top: 0%;
     }
     header .logo .text p {
         font-size: 0.8rem;

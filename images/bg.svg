@@ -12,30 +12,6 @@
 <rect x="90.7397" y="473" width="60" height="224.294" transform="rotate(29 90.7397 473)" fill="#EFE6E9"/>
 <rect x="77.8945" y="323" width="60" height="267.929" transform="rotate(29 77.8945 323)" fill="#EFE6E9"/>
 <rect x="1027.19" y="32.9723" width="60" height="305.674" transform="rotate(29 1027.19 32.9723)" fill="#EFE6E9"/>
-<path d="M145.172 386.892C149.128 382.631 155.872 382.631 159.828 386.892L185 414H120.781C120.484 414 120.329 413.645 120.532 413.427V413.427L129.863 403.378L145.172 386.892Z" fill="#550216"/>
-<path d="M159.828 531.108C155.872 535.369 149.128 535.369 145.172 531.108L120 504H184.219C184.516 504 184.671 504.355 184.468 504.573V504.573L175.137 514.622L159.828 531.108Z" fill="#550216"/>
-<path d="M225.108 452.172C229.369 456.128 229.369 462.872 225.108 466.828L198 492V427.781C198 427.484 198.355 427.329 198.573 427.532V427.532L208.622 436.863L225.108 452.172Z" fill="#550216"/>
-<path d="M80.8916 466.828C76.631 462.872 76.631 456.128 80.8916 452.172L108 427V491.219C108 491.516 107.645 491.671 107.427 491.468V491.468L97.3781 482.137L80.8916 466.828Z" fill="#550216"/>
-<rect x="108" y="414" width="90" height="90" fill="white"/>
-<path d="M840 173.5C840 141.744 865.744 116 897.5 116V116C929.256 116 955 141.744 955 173.5V175.5C955 208.361 928.361 235 895.5 235H840V173.5Z" fill="#550216"/>
-<circle cx="897.5" cy="175.5" r="47.5" fill="white"/>
-<line x1="813" y1="115" x2="869" y2="115" stroke="#2E206B" stroke-width="2"/>
-<line x1="927" y1="115" x2="983" y2="115" stroke="#2E206B" stroke-width="2"/>
-<line x1="813" y1="244" x2="869" y2="244" stroke="#2E206B" stroke-width="2"/>
-<line x1="927" y1="244" x2="983" y2="244" stroke="#2E206B" stroke-width="2"/>
-<line x1="814" y1="155" x2="814" y2="115" stroke="#2E206B" stroke-width="2"/>
-<line x1="982" y1="155" x2="982" y2="115" stroke="#2E206B" stroke-width="2"/>
-<line x1="814" y1="245" x2="814" y2="205" stroke="#2E206B" stroke-width="2"/>
-<line x1="982" y1="245" x2="982" y2="205" stroke="#2E206B" stroke-width="2"/>
-<line x1="825" y1="155" x2="825" y2="102" stroke="#2E206B" stroke-width="2"/>
-<line x1="970" y1="155" x2="970" y2="102" stroke="#2E206B" stroke-width="2"/>
-<line x1="825" y1="258" x2="825" y2="205" stroke="#2E206B" stroke-width="2"/>
-<line x1="826" y1="258" x2="826" y2="205" stroke="#2E206B" stroke-width="2"/>
-<line x1="970" y1="258" x2="970" y2="205" stroke="#2E206B" stroke-width="2"/>
-<line x1="825" y1="103" x2="869" y2="103" stroke="#2E206B" stroke-width="2"/>
-<line x1="927" y1="103" x2="971" y2="103" stroke="#2E206B" stroke-width="2"/>
-<line x1="825" y1="257" x2="869" y2="257" stroke="#2E206B" stroke-width="2"/>
-<line x1="927" y1="257" x2="971" y2="257" stroke="#2E206B" stroke-width="2"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
